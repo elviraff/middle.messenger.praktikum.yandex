@@ -1,0 +1,17 @@
+button {
+    height: 37px;
+    width: 280px;
+    text-align: center;
+    font-size: $MEDIUM-LIGHT-FONT;
+    padding: 12px 70px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: $COLOR_BLUE;
+    &:hover {
+        background-color: $COLOR_BLUE;
+        color: white; 
+        font-size: $MEDIUM-FONT;
+    }
+}
+
