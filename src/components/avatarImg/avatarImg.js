@@ -6,3 +6,5 @@ export {default as AvatarImg} from './avatarImg.hbs?raw'
 Handlebars.registerHelper('avatarImage', () => {
     return  avatarPic
 })
+
+

@@ -7,3 +7,4 @@ export {Profile} from './profile/profile'
 export {ProfileChange} from './profileChange/profileChange'
 export {PasswordChange} from './passwordChange/passwordChange'
 export {MainPage} from './mainPage/main'
+
