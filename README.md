@@ -1,6 +1,7 @@
 Использовался макет из теории: https://www.figma.com/file/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?type=design&node-id=0-1&mode=design&t=oxyTPZy1tc5le4s4-0
 Команда для сборки и запуска: npm run start
 Ссылки на все страницы расположены на главной странице.
+Ссылка на Netlify:  eloquent-flan-d13552.netlify.app
 
 
 
