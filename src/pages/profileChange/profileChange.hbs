@@ -4,6 +4,7 @@
     <div class='profile__avatar'>
       {{> AvatarImg}}
     </div>
+    {{#> Form}}
     <div class="profile__items">
         {{> ChangeableItem name='email' label='Почта' type="email" value='ivanov@gmail.com'}}
         {{> ChangeableItem name='login' label='Логин' type="text" value='ivanivanov'}}
@@ -15,6 +16,7 @@
     <div class="profile__saving">
         {{> Button label='Сохранить' page='profile'}}
     </div>
+    {{/Form}}
     
   </div>
 </main>

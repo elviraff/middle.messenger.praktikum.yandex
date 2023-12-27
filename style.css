@@ -24,12 +24,6 @@ button:hover {
   margin-top: 40px;
   width: 100%;
 }
-.form__login {
-  margin-bottom: 160px;
-}
-.form__signin {
-  margin-bottom: 47px;
-}
 
 .input__element {
   border: none;
@@ -131,6 +125,13 @@ header {
   font-size: 20px;
 }
 
+.login-submit {
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .profile__wrapper {
   display: flex;
   height: 100vh;
@@ -206,7 +207,13 @@ header {
   margin: 50px;
 }
 
+.signin-submit {
+  margin-top: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 body {
   font-family: "Inter";
 }/*# sourceMappingURL=style.css.map */
-

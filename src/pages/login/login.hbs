@@ -1,11 +1,13 @@
 <main class="container">
     <header>Вход</header>
-    {{#> Form type="form__login"}}
+    {{#> Form}}
         {{> Input name='login' label="Логин" type="text" placeholder='Ivanov'}}
         {{> Input name='password' label="Пароль" type="password" placeholder='********'}}
+        <section class="login-submit">
+            {{> Button label="Войти" page='chat'}}
+            {{> Button label='Нет аккаунта?' page="signin"}}
+        </section>
     {{/Form}}
-    {{> Button label="Войти" page='chat'}}
-    {{> Button label='Нет аккаунта?' page="signin"}}
 </main> 
 
 
