@@ -1,0 +1,24 @@
+<main class="profile__wrapper">
+  {{> Icon}}
+  <div class="profile__content">
+    <div class='profile__avatar'>
+      {{> AvatarImg}}
+      <div>Иван</div>
+    </div>
+    <div class="profile__items">
+      {{> ListItem name='email' label='Почта' value='ivanov@gmail.com'}}
+      {{> ListItem name='login' label='Логин' value='ivanivanov'}}
+      {{> ListItem name='first_name' label='Имя' value='Иван'}}
+      {{> ListItem name='second_name' label='Фамилия' value='Иванов'}}
+      {{> ListItem name='display_name' label='Имя в чате' value='Иван'}}
+      {{> ListItem name='phone' label='Телефон' value='+7(909)9673030'}}
+    </div>
+    <div class="profile__changes">
+      <div class="profile__link"><a class="profile__link--text" href="" page="profileChange">Изменить данные</a></div>
+      <div class="profile__link"><a class="profile__link--text" href="" page="passwordChange">Изменить пароль</a></div>
+      <div class="profile__link"><a class="profile__link--text" href="" page="login">Выйти</a></div>        
+    </div>
+    
+  </div>
+</main>
+
